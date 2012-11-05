@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author       = { 'Ryan Connelly' => 'ryan@quad.io' }
   # Specify the location from where the source should be retreived.
   #
-  s.source       = { :git => 'https://github.com/rconnelly/MXiPOS-SDK.git', :tag => '0.0.1' }
+  s.source       = { :git => 'git@github.com:PRIORITYPAYMENTSYSTEMS/MXPOS-SDK.git', :branch => 'feature-new-api' }
   s.platform     = :ios, '5.0'
   s.source_files = 'src/iPOS-SDK/**/*.{h,m,.xdatamodelId}'
   s.frameworks  = 'CoreData'
