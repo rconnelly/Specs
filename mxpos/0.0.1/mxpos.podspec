@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   #                  DESC
   s.homepage     = 'http://pps.io'
   s.license      = 'MIT'
-  s.author       = { 'Ryan Connelly' => 'ryan@quad.io' }
+  s.author       = { 'Ryan Connelly' => 'ryan@quad.io', 'Jeremy Medford' => 'jeremy@quad.io' }
   # Specify the location from where the source should be retreived.
   #
   s.source       = { :git => 'git@github.com:PRIORITYPAYMENTSYSTEMS/MXPOS-SDK.git', :branch => 'feature-new-api' }
