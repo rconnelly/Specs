@@ -14,11 +14,13 @@ Pod::Spec.new do |s|
   #
   s.source       = { :git => 'git@github.com:PRIORITYPAYMENTSYSTEMS/MXPOS-SDK.git', :branch => 'feature-new-api' }
   s.platform     = :ios, '5.0'
-  s.source_files = 'src/iPOS-SDK/**/*.{h,m,.xdatamodelId}'
+  s.source_files = 'src/iPOS-SDK/**/*.{h,m,.xdatamodeld}'
   s.frameworks  = 'CoreData'
   # s.libraries = 'iconv', 'xml2'
   s.requires_arc = true
 
-  s.dependency 'STLOAuth', '~> 1.0'
-  s.dependency 'MagicalRecord', '~> 2.0'
+  s.dependency 'AFIncrementalStore', '~>0.1.0'
+  s.dependency 'CocoaLumberjack', '~>1.6'
+  s.dependency 'FormatterKit', '~>1.0'
+
 end
